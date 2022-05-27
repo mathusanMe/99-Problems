@@ -3,4 +3,4 @@ let rec last = function
     | [ x ] -> Some x
     | _ :: t -> last t;;
 
-last [];;
+val last : 'a list -> 'a option = <fun>
